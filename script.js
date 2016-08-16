@@ -10,14 +10,14 @@ module.exports = new Script({
         //prompt: (bot) => bot.say('Beep boop...'),
         receive: () => 'processing'
     },
-
+/*
     start: {
         receive: (bot) => {
             return bot.say('Hey there, this is ErikBot, type HELLO to get started.')
                 .then(() => 'speak');
         }
     },
-
+*/
     speak: {
         receive: (bot, message) => {
 
